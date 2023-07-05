@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[41,)"
+license="MIT License"
+
+[[mods]]
+    modId="backtobed"
+    version="0.0.1"
+    displayName="Back To Bed"
+        logoFile="backtobed_logo.png"
+        authors="BaKY"
+        description="Enjoy the convenience of effortless homeward travels."
+
+[[dependencies.backtobed]]
+    modId="forge"
+    mandatory=true
+    versionRange="[41,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.backtobed]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19,1.19.1)"
+    ordering="NONE"
+    side="BOTH"
