@@ -4,7 +4,7 @@ license="MIT License"
 
 [[mods]]
     modId="backtobed"
-    version="0.0.1"
+    version="0.1.1"
     displayName="Back To Bed"
         logoFile="backtobed_logo.png"
         authors="BaKY"
