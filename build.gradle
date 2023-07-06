@@ -5,7 +5,7 @@ plugins {
     id 'org.parchmentmc.librarian.forgegradle' version '1.+'
 }
 
-version = '1.19-0.0.1'
+version = '1.19-0.1.1'
 group = 'com.baky.backtobed'
 archivesBaseName = 'BackToBed-Forge'
 
