@@ -60,9 +60,9 @@ public class MagicalReturner extends Item {
     }
 
     @Override
-    public void onUseTick(Level level, @NotNull LivingEntity entity, @NotNull ItemStack stack, int count) {
+    public void onUsingTick(ItemStack stack, LivingEntity entity, int count) {
         // Skip if it's client-side or not a player
-        if (level.isClientSide() || !(entity instanceof ServerPlayer player)) {
+        if (!(entity instanceof ServerPlayer player) || player.getCommandSenderWorld().isClientSide()) {
             return;
         }
 
@@ -71,6 +71,8 @@ public class MagicalReturner extends Item {
         if (durationHeld < 40) {
             return;
         }
+
+        Level level = player.getCommandSenderWorld();
 
         if (level.dimension() != Level.OVERWORLD) {
             player.sendSystemMessage(Component.translatable("magical_returner.teleport_for_overworld"));
