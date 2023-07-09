@@ -1,8 +1,11 @@
+
 # Back To Bed [1.19 - 1.19.2]
 
 > Enjoy the convenience of effortless homeward travels.
 
-<p align="center"><img src="https://github.com/BaKYCoder/BackToBed/blob/1.19/src/main/resources/backtobed_logo.png" height="128px" alt="Mod Logo"></p>
+<p align="center">
+  <img src="https://github.com/BaKYCoder/BackToBed/blob/1.19/src/main/resources/backtobed_logo.png" width="650" alt="Mod Logo">
+</p>
 
 ## Navigation
 
@@ -33,7 +36,13 @@
 * [Magical Returner](#magical-returner)
 
 #### Magical Returner
-> Teleports you straight to your chosen respawn point - your beloved bed!
+
+<img src="https://github.com/BaKYCoder/BackToBed/blob/1.19/src/main/resources/assets/backtobed/textures/item/magical_returner.png" height="48x" alt="item_icon">
+
+* Teleports you straight to your chosen respawn point - your beloved bed!
+
+> Allows teleportation along with your mount when you're riding it.
+
 * **Recipe:**
 
 |       |       |       |
