@@ -3,7 +3,7 @@ package com.baky.backtobed;
 import com.baky.backtobed.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.common.MinecraftForge;
-import net.minecraftforge.event.CreativeModeTabEvent;
+import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
@@ -23,8 +23,8 @@ public class BackToBed
         modEventBus.addListener(this::addCreative);
     }
 
-    private void addCreative(CreativeModeTabEvent.BuildContents event) {
-        if(event.getTab() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+    private void addCreative(BuildCreativeModeTabContentsEvent event) {
+        if(event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
             event.accept(ModItems.MAGICAL_RETURNER);
         }
     }
