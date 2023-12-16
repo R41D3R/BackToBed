@@ -1,0 +1,10 @@
+{
+  "item.backtobed.magical_returner": "§bМагічний Повертач",
+  "item.backtobed.magical_returner.tooltip.behavior": "Телепортує вас прямо до вашої вибраної точки відродження, вашого улюбленого ліжка!",
+  "item.backtobed.magical_returner.tooltip.further": "Дозволяє телепортувати разом із вашою їздовою твариною, коли ви на ній їздите.",
+  "item.backtobed.magical_returner.condition.teleport_for_overworld": "Телепортація доступна лише в надсвіті.",
+  "item.backtobed.magical_returner.condition.no_respawn_point": "Точка відродження не встановлена.",
+  "item.backtobed.magical_returner.condition.no_access_to_bed": "Немає доступу до ліжка, можливо, воно знищено!",
+
+  "backtobed.tooltip.key_hold": "Утрим. [%1%s] для додат. інфор."
+}

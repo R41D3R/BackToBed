@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "backtobed",
+  "version": "${version}",
+
+  "name": "BackToBed",
+  "description": "This mod adds a handy return device, permitting you to relocate to the spawn point with ease.",
+  "authors": ["BaKY"],
+
+  "license": "MIT",
+  "icon": "assets/backtobed/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.github.bakycoder.backtobed.fabric.BackToBedFabric"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "minecraft": ">=1.20 <1.21",
+    "fabric": ">=0.83.0+1.20"
+  }
+}

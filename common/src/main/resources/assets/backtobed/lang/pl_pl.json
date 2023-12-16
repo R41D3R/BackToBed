@@ -1,0 +1,10 @@
+{
+  "item.backtobed.magical_returner": "§bMagiczny Powrót",
+  "item.backtobed.magical_returner.tooltip.behavior": "Teleportuje Cię bezpośrednio do wybranego punktu odrodzenia, Twojego ukochanego łóżka!",
+  "item.backtobed.magical_returner.tooltip.further": "Pozwala na teleportację wraz z Twoim wierzchowcem, kiedy na nim jedziesz.",
+  "item.backtobed.magical_returner.condition.teleport_for_overworld": "Teleportacja jest dostępna tylko w Overworld.",
+  "item.backtobed.magical_returner.condition.no_respawn_point": "Punkt odrodzenia nie jest ustawiony.",
+  "item.backtobed.magical_returner.condition.no_access_to_bed": "Nie można uzyskać dostępu do łóżka, być może zostało zniszczone!",
+
+  "backtobed.tooltip.key_hold": "Przytr. [%1%s] aby uzys. więcej"
+}

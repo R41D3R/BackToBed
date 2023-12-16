@@ -1,0 +1,29 @@
+modLoader="javafml"
+loaderVersion="[46,)"
+license="MIT"
+issueTrackerURL="https://github.com/BaKYCoder/BackToBed/issues"
+
+[[mods]]
+   modId="backtobed"
+   version="${version}"
+   displayName="BackToBed"
+   displayURL="https://www.curseforge.com/minecraft/mc-mods/back-to-bed"
+   logoFile="logo.png"
+   authors="BaKY"
+   description='''
+   This mod adds a handy return device, permitting you to relocate to the spawn point with ease.
+   '''
+
+[[dependencies.backtobed]]
+   modId="forge"
+   mandatory=true
+   versionRange="[46,)"
+   ordering="NONE"
+   side="BOTH"
+
+[[dependencies.backtobed]]
+   modId="minecraft"
+   mandatory=true
+   versionRange="[1.20,1.21)"
+   ordering="NONE"
+   side="BOTH"

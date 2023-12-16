@@ -1,0 +1,10 @@
+{
+  "item.backtobed.magical_returner": "§bRetour Magique",
+  "item.backtobed.magical_returner.tooltip.behavior": "Vous téléporte directement à votre point de réapparition choisi, votre lit bien-aimé !",
+  "item.backtobed.magical_returner.tooltip.further": "Permet la téléportation avec votre monture lorsque vous la montez.",
+  "item.backtobed.magical_returner.condition.teleport_for_overworld": "La téléportation n'est disponible que dans l'Overworld.",
+  "item.backtobed.magical_returner.condition.no_respawn_point": "Le point de réapparition n'est pas défini.",
+  "item.backtobed.magical_returner.condition.no_access_to_bed": "Impossible d'accéder au lit, peut-être détruit !",
+
+  "backtobed.tooltip.key_hold": "Maintenir [%1%s] pour plus"
+}

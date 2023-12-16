@@ -1,0 +1,10 @@
+{
+  "item.backtobed.magical_returner": "§bMagischer Rückkehrer",
+  "item.backtobed.magical_returner.tooltip.behavior": "Teleportiert dich direkt zu deinem ausgewählten Respawn-Punkt, dein geliebtes Bett!",
+  "item.backtobed.magical_returner.tooltip.further": "Ermöglicht die Teleportation zusammen mit deinem Reittier, wenn du auf ihm reitest.",
+  "item.backtobed.magical_returner.condition.teleport_for_overworld": "Teleportation ist nur in der Oberwelt verfügbar.",
+  "item.backtobed.magical_returner.condition.no_respawn_point": "Der Respawn-Punkt ist nicht festgelegt.",
+  "item.backtobed.magical_returner.condition.no_access_to_bed": "Kein Zugang zum Bett möglich, möglicherweise zerstört!",
+
+  "backtobed.tooltip.key_hold": "Halte [%1%s] für mehr"
+}

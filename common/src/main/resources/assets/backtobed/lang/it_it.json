@@ -1,0 +1,10 @@
+{
+  "item.backtobed.magical_returner": "§bRitorno Magico",
+  "item.backtobed.magical_returner.tooltip.behavior": "Ti teletrasporta direttamente al tuo punto di respawn scelto, il tuo amato letto!",
+  "item.backtobed.magical_returner.tooltip.further": "Consente la teletrasporto insieme al tuo mount quando lo stai cavalcando.",
+  "item.backtobed.magical_returner.condition.teleport_for_overworld": "La teletrasporto è disponibile solo nell'Overworld.",
+  "item.backtobed.magical_returner.condition.no_respawn_point": "Il punto di respawn non è impostato.",
+  "item.backtobed.magical_returner.condition.no_access_to_bed": "Impossibile accedere al letto, potrebbe essere distrutto!",
+
+  "backtobed.tooltip.key_hold": "Tieni [%1%s] per ulteriori"
+}

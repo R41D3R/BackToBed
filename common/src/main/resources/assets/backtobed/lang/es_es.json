@@ -1,0 +1,12 @@
+{
+  "_" : "Translated by Xiaolin2-g",
+
+  "item.backtobed.magical_returner": "§bRegresador Mágico",
+  "item.backtobed.magical_returner.tooltip.behavior": "Te teletransporta directamente a tu punto de reaparición, querida cama!",
+  "item.backtobed.magical_returner.tooltip.further": "Permite la teletransportación junto a tu montura cuando estas sobre ella.",
+  "item.backtobed.magical_returner.condition.teleport_for_overworld": "El teletransporte solo está disponible en el overworld.",
+  "item.backtobed.magical_returner.condition.no_respawn_point": "El punto de reaparición no ha sido fijado.",
+  "item.backtobed.magical_returner.condition.no_access_to_bed": "¡No se puede acceder a la cama, posiblemente ha sido destruída!",
+
+  "backtobed.tooltip.key_hold": "Mantén [%1%s] para más"
+}
