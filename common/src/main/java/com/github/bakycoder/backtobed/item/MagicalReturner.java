@@ -41,11 +41,11 @@ public class MagicalReturner extends Item {
     /**
      * Representing the duration of item usage in ticks.
      */
-    private static final int ITEM_DURATION_USAGE_TICKS = 40;
+    private static final int ITEM_DURATION_USAGE_TICKS = 200;
     /**
      * Representing the cooldown duration of the item in ticks.
      */
-    private static final int ITEM_COOLDOWN_TICKS = ITEM_DURATION_USAGE_TICKS;
+    private static final int ITEM_COOLDOWN_TICKS = 36000;
     /**
      * The executor service for scheduling asynchronous tasks.
      */
